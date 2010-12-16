@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser">
+  <!--
+    - A skin in made up of two interfaces: one for the skin itself and
+    - one for the layer attached to the skin.
+  -->
+  <interface
+    interface=".interfaces.IGSBlueLayer"
+    type="zope.publisher.interfaces.browser.IBrowserSkinType" />
+  <interface
+    interface=".interfaces.IGSBlueSkin"
+    type="zope.publisher.interfaces.browser.IBrowserSkinType" />
+  <!--
+    - Skins have a name, provided by a utility. It is this name that is
+    - looked up by the ++skin++ directive in the URL
+  -->
+  <utility
+    component=".interfaces.IGSBlueSkin"
+    provides="zope.publisher.interfaces.browser.IBrowserSkinType"
+    name="gs_blue" />
+  
+  <!--
+    - The actual resources. Normally a resource is associated with a 
+    - skin, so they are not inherited. Pages are associated with layers.
+  -->
+  <browser:resource name="site-20101213.css"
+    file="browser/css/site.css"
+    layer=".interfaces.IGSBlueSkin"
+    permission="zope2.Public" />
+  <!-- However, in the case of these two resources we want them to
+  - be inherited, so we associtate them with IGSBlueLayer -->
+  <browser:resource name="site-blue-20101213.css"
+    file="browser/css/site.css" 
+    layer=".interfaces.IGSBlueLayer"
+    permission="zope2.Public" />
+  <browser:resourceDirectory name="jquery-icons"
+    directory="browser/jquery/css/ui-lightness/images/" 
+    layer=".interfaces.IGSBlueLayer"
+    permission="zope2.Public" />
+</configure>
+
