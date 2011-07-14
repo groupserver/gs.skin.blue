@@ -24,6 +24,10 @@
     - The actual resources. Normally a resource is associated with a 
     - skin, so they are not inherited. Pages are associated with layers.
   -->
+  <browser:resource name="site-20110714.css"
+    file="browser/css/site.css"
+    layer=".interfaces.IGSBlueSkin"
+    permission="zope2.Public" />
   <browser:resource name="site-20110308.css"
     file="browser/css/site.css"
     layer=".interfaces.IGSBlueSkin"
