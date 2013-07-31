@@ -1,4 +1,4 @@
-# coding=utf-8
+# -*- coding: utf-8 -*-
 import os
 from setuptools import setup, find_packages
 from version import get_version
@@ -32,9 +32,10 @@ setup(name='gs.skin.blue',
     zip_safe=True,
     install_requires=[
         'setuptools',
-        # -*- Extra requirements: -*-
+        'zope.app.rotterdam',
+        'zope.browserresource',
+        'zope.publisher',
     ],
     entry_points="""
     # -*- Entry points: -*-
     """,)
-
