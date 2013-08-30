@@ -21,7 +21,7 @@ setup(name='gs.skin.blue',
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
       ],
-    keywords='skin groupserver blue',
+    keywords='skin groupserver blue css',
     author='Michael JasonSmith',
     author_email='mpj17@onlinegroups.net',
     url='http://www.onlinegroups.net/',
@@ -32,10 +32,10 @@ setup(name='gs.skin.blue',
     zip_safe=True,
     install_requires=[
         'setuptools',
-        'gs.content.css',  # We depend on the core CSS
         'zope.app.rotterdam',
         'zope.browserresource',
         'zope.publisher',
+        'gs.content.css',  # We depend on the core CSS
     ],
     entry_points="""
     # -*- Entry points: -*-
