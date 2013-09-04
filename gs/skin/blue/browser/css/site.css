@@ -1178,7 +1178,7 @@ button.close {
 
 /* GroupServer specific*/
 
-body {
+body, #bodyblock, #gs-content-layout-body {
     background: #fffffc;
 }
 body,
