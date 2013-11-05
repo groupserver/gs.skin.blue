@@ -12,8 +12,8 @@
 # FOR A PARTICULAR PURPOSE.
 #
 ##############################################################################
-from zope.publisher.interfaces.browser import IBrowserRequest
 from zope.app.rotterdam import Rotterdam
+from zope.publisher.interfaces.browser import IBrowserRequest
 
 
 class IGSBlueLayer(IBrowserRequest):
