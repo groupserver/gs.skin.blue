@@ -25,21 +25,21 @@
     - skin, so they are not inherited. Pages are associated with layers.
   -->
   <browser:resource name="site-20110714.css"
-    file="browser/css/site.css"
+    file="browser/css/site-min.css"
     layer=".interfaces.IGSBlueLayer"
     permission="zope2.Public" />
   <browser:resource name="site-20110308.css"
-    file="browser/css/site.css"
+    file="browser/css/site-min.css"
     layer=".interfaces.IGSBlueSkin"
     permission="zope2.Public" />
   <browser:resource name="site-20110406.css"
-    file="browser/css/site.css"
+    file="browser/css/site-min.css"
     layer=".interfaces.IGSBlueSkin"
     permission="zope2.Public" />
   <!-- However, in the case of these two resources we want them to
   - be inherited, so we associtate them with IGSBlueLayer -->
   <browser:resource name="site-blue-20101213.css"
-    file="browser/css/site.css"
+    file="browser/css/site-min.css"
     layer=".interfaces.IGSBlueLayer"
     permission="zope2.Public" />
   <browser:resourceDirectory name="jquery-icons"
