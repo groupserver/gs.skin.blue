@@ -19,9 +19,9 @@
     component=".interfaces.IGSBlueSkin"
     provides="zope.publisher.interfaces.browser.IBrowserSkinType"
     name="gs_blue" />
-  
+
   <!--
-    - The actual resources. Normally a resource is associated with a 
+    - The actual resources. Normally a resource is associated with a
     - skin, so they are not inherited. Pages are associated with layers.
   -->
   <browser:resource name="site-20110714.css"
@@ -39,12 +39,23 @@
   <!-- However, in the case of these two resources we want them to
   - be inherited, so we associtate them with IGSBlueLayer -->
   <browser:resource name="site-blue-20101213.css"
-    file="browser/css/site.css" 
+    file="browser/css/site.css"
     layer=".interfaces.IGSBlueLayer"
     permission="zope2.Public" />
   <browser:resourceDirectory name="jquery-icons"
-    directory="browser/jquery/css/ui-lightness/images/" 
+    directory="browser/jquery/css/ui-lightness/images/"
     layer=".interfaces.IGSBlueLayer"
     permission="zope2.Public" />
-</configure>
 
+  <!--The viewlet to add the blue colour to the Notifications css. -->
+  <browser:viewlet
+    name="gs-skin-blue-colour"
+    manager="gs.content.email.css.interfaces.IHTMLEmailStyle"
+    layer=".interfaces.IGSBlueLayer"
+    class="gs.viewlet.SiteViewlet"
+    template="browser/templates/email.pt"
+    title="Blue CSS"
+    weight="127"
+    permission="zope2.Public" />
+
+</configure>
