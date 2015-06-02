@@ -7,25 +7,30 @@ A blue skin for GroupServer
 
 :Author: `Michael JasonSmith`_
 :Contact: Michael JasonSmith <mpj17@onlinegroups.net>
-:Date: 2013-07-31
+:Date: 2015-06-02
 :Organization: `GroupServer.org`_
 :Copyright: This document is licensed under a
-  `Creative Commons Attribution-Share Alike 3.0 New Zealand License`_
-  by `OnlineGroups.Net`_.
+  `Creative Commons Attribution-Share Alike 4.0 International License`_
+  by `OnlineGroups.net`_.
+
+..  _Creative Commons Attribution-Share Alike 4.0 International License:
+    http://creativecommons.org/licenses/by-sa/4.0/
 
 Introduction
 ============
 
-This product provides a blue skin for GroupServer. The This skin takes the
-typeset page, provided by ``gs.content.css``, and adds colours_.
+This product provides a blue skin for GroupServer. The This skin
+takes the typeset page, provided by ``gs.content.css``, and adds
+colours_.
 
 Colours
 =======
 
-The most prominent colour is **blue steel**, which is the background of the
-page heading, and the text colour of all the headers. The most *common*
-colour is **Bateman bold,** which is the background of the page, followed
-by the body text, which is **Garage patina** grey:
+The most prominent colour is **blue steel**, which is the
+background of the page heading, and the text colour of all the
+headers. The most *common* colour is **Bateman bold,** which is
+the background of the page, followed by the body text, which is
+**Garage patina** grey:
 
 +-------------+-----+--------------------+-------------------------------------+
 | Colour      | Eg. | Colour description | Use                                 |
@@ -120,15 +125,16 @@ by the body text, which is **Garage patina** grey:
 Authors
 =======
 
-Mike Harding from `Cactus Lab`_ performed the design work. The CSS coding
-and egg creation, was by `Michael JasonSmith`_. Many of the CSS classes are
-from `Twitter Bootstrap`_.
+Mike Harding from `Cactus Lab`_ performed the design work. The
+CSS coding and egg creation, was by `Michael JasonSmith`_. Many
+of the CSS classes are from `Twitter Bootstrap`_.
 
 Resources
 =========
 
-- Code repository: https://source.iopen.net/groupserver/gs.skin.blue/
-- Questions and comments to http://groupserver.org/groups/development
+- Code repository: https://github.com/groupserver/gs.skin.blue/
+- Questions and comments to
+  http://groupserver.org/groups/development
 - Report bugs at https://redmine.iopen.net/projects/groupserver
 
 .. _GroupServer: http://groupserver.org/
