@@ -1,7 +1,10 @@
 Changelog
 =========
-Changelog
-=========
+
+2.2.2 (2015-09-17)
+------------------
+
+* Using six-digit colour codes for IBM Notes
 
 2.2.1 (2015-06-02)
 ------------------
