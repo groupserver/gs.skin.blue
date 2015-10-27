@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.2.3 (2015-10-27)
+------------------
+
+* Updating the version number for the site CSS
+
 2.2.2 (2015-09-17)
 ------------------
 
