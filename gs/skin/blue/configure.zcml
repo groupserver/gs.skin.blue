@@ -25,6 +25,11 @@
     - skin, so they are not inherited. Pages are associated with layers.
   -->
   <browser:resource
+    name="site-20151027.css"
+    file="browser/css/site-min.css"
+    layer=".interfaces.IGSBlueLayer"
+    permission="zope2.Public" />
+  <browser:resource
     name="site-20140515.css"
     file="browser/css/site-min.css"
     layer=".interfaces.IGSBlueLayer"
