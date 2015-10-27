@@ -1261,11 +1261,11 @@ h3.small,
 .gs-content-layout-cols .secondary,
 .gs-content-layout-cols .secondary.small,
 .nav-tabs,
-.hentry,
+.h-entry,
 .postList,
-#gs-group-messages-topic-page-content .hentry:last-child,
-.hentry .fileNotification,
-#gs-group-messages-post .hentry,
+#gs-group-messages-topic-page-content .hfeed .h-entry:last-child,
+.h-entry .fileNotification,
+#gs-group-messages-post .h-entry,
 #gs-content-layout-footer {
     border-color: #d3d9df; /* Dusty green */
 }
